@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body>
+    <div class="container mx-auto mt-10 flex justify-center gap-6 items-center">
+    <input id="product-field" type="text" placeholder="Product Name" class="input focus:outline-none bg-slate-300 rounded-2xl border-blue-200 px-4 py-0 cursor-pointer ">
+    <input id="Quantity-field" type="text" placeholder="Quantity" class="input focus:outline-none bg-slate-300 rounded-2xl border-blue-200 px-4 py-0 cursor-pointer">
+    
+    <button onclick="addToCart()" class="btn text-white bg-blue-500 rounded-2xl py-2 hover:bg-blue-500">Add to cart</button>
+</div>
+
+<div class="mt-10 bg-slate-300  rounded-2xl max-w-screen-md text-center p-5 mx-auto">
+    <h3 class="text-2xl text-white  text-center font-bold bg-slate-500 max-w-xs p-4 mx-auto rounded-2xl">Product lists you added:</h3>
+    <ul id="display-field" class="text-center mt-10 text-xl font-bold">
+
+    </ul>
+</div>
+    </div>
+    <script src="js/practice.js"></script>
+</body>
+
+</html>
